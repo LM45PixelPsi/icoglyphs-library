@@ -1,0 +1,93 @@
+{
+  "9": {
+    "name": "9",
+    "id": "984b838e-2436-425b-99df-ce564ede16a4",
+    "viewBox": "0 0 100 100",
+    "aspectRatio": "1:1",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1733416327945,
+        "path": "M 10 10 L 65 35 L 90 35 M 10 65 L 35 65 L 35 90 M 90 10 L 10 90",
+        "author": "L"
+      },
+      "0.2.0": {
+        "versionDate": 1733489427989,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.3.0": {
+        "versionDate": 1733489502781,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.4.0": {
+        "versionDate": 1733489882803,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.5.0": {
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L",
+        "versionDate": 1733579531461
+      },
+      "0.6.0": {
+        "versionDate": 1733582581323,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.7.0": {
+        "versionDate": 1733583386035,
+        "path": "M 10 10 L 20 20 L 30 30 L 90 90 L 90 60",
+        "author": "L"
+      },
+      "0.8.0": {
+        "versionDate": 1733583632112,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.9.0": {
+        "versionDate": 1733586396768,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.10.0": {
+        "versionDate": 1733586610035,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.11.0": {
+        "versionDate": 1733587859474,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.12.0": {
+        "versionDate": 1733591208798,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.13.0": {
+        "versionDate": 1733591991934,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.14.0": {
+        "versionDate": 1733592263205,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      },
+      "0.15.0": {
+        "versionDate": 1733846827972,
+        "path": "M 10 10 L 20 20 L 30 30",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.15.0",
+    "publicVersion": "0.2.0",
+    "metadata": {
+      "notes": {
+        "devNote": "ddddwwwwww"
+      },
+      "tags": ["coucou"]
+    }
+  }
+}
