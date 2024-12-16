@@ -6,11 +6,11 @@ const readAndUpdateJSON = require("./utils/fileUtils/readAndUpdateJSON"); // Imp
  *
  * @param {String} glyphName - The name of the icoGlyph to update.
  * @param {String} newNote - The new note or description to add or replace.
- * @param {String} noteType - The type of note to modify (devNote, userNote, description).
+ * @param {"devNote", "userNote", "description", "publicName"} noteType - The type of note to modify.
  * @param {String} action - The action to perform: "add", "replace", or "delete".
  */
 async function updateString(glyphName, newNote, noteType, action) {
-  const validNoteTypes = ["devNote", "userNote", "description"];
+  const validNoteTypes = ["devNote", "userNote", "description", "publicName"];
   if (!validNoteTypes.includes(noteType)) {
     console.error(
       `Error: The note type "${noteType}" is invalid. Valid types: ${validNoteTypes.join(
@@ -39,8 +39,25 @@ async function updateString(glyphName, newNote, noteType, action) {
       return;
     }
 
-    // Manage description
-    if (noteType === "description") {
+    if (noteType === "publicName") {
+      if (action === "add") {
+        if (!glyph.metadata.publicName) {
+          glyph.metadata.publicName = newNote;
+          console.log("Public name replaced.");
+        } else {
+          console.error(
+            "The public name can only be replaced or deleted. No changes made."
+          );
+        }
+      } else if (action === "replace") {
+        glyph.metadata.publicName = newNote;
+        console.log("Public name replaced.");
+      } else if (action === "delete") {
+        delete glyph.metadata.publicName;
+        console.log("Public name deleted.");
+      }
+    } else if (noteType === "description") {
+      // Manage description
       if (action === "add") {
         if (!glyph.metadata.description) {
           glyph.metadata.description = newNote;
@@ -96,9 +113,9 @@ async function updateString(glyphName, newNote, noteType, action) {
 const noteData = {
   icoGlyphName: "9",
 
-  textToAdd: "ddddwwwwww",
+  textToAdd: "Public name of 9",
 
-  noteType: "devNote",
+  noteType: "publicName",
 
   action: "add",
 };

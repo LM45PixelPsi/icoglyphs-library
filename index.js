@@ -1,48 +1,24 @@
 import icoGlyphsLibrary from "./icoGlyphsLibrary.json";
+import getCompletSVG from "./lib/getSvgData/getCompletSVG";
+import getPath from "./lib/getSvgData/getPath";
+import getSvgAttributes from "./lib/getSvgData/getSvgAttributes";
+import getIcoGlyphDefaultStyle from "./lib/getSvgData/getStyle";
 
-function getIcoGlyph(icoGlyphName) {
-  const icoGlyph = icoGlyphsLibrary[icoGlyphName];
-  if (!icoGlyph) {
-    console.error(`Icon not found: ${icoGlyphName}`);
-    return null;
-  }
-  return icoGlyph;
-}
+const icoGlyph = {
+  getPath: (icoGlyphName, icoGlyphVersion) => {
+    return getPath(icoGlyphName, icoGlyphVersion);
+  },
 
-const icoGlyphs = {
-  get: {
-    path(icoGlyphName, version) {
-      const icoGlyph = getIcoGlyph(icoGlyphName);
-      if (!icoGlyph) return null;
+  getSvgAttributes: (icoGlyphName) => {
+    return getSvgAttributes(icoGlyphName);
+  },
 
-      const targetVersion = version || icoGlyph.publicVersion;
-      if (!targetVersion) {
-        console.error(
-          `No public version for ${icoGlyphName}, please specify a version.`
-        );
-        return null;
-      }
+  getIcoGlyphDefaultStyle: () => {
+    return getIcoGlyphDefaultStyle();
+  },
 
-      const versionData = icoGlyph.version[targetVersion];
-      if (!versionData) {
-        console.error(
-          `Version ${targetVersion} not found for icon ${icoGlyphName}`
-        );
-        return null;
-      }
-
-      return versionData.path;
-    },
-
-    SvgAttributes(icoGlyphName) {
-      const icoGlyph = getIcoGlyph(icoGlyphName);
-      if (!icoGlyph) return {};
-
-      return {
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: icoGlyph.viewBox,
-      };
-    },
+  getCompletSVG: (icoGlyphName, icoGlyphVersion) => {
+    return getCompletSVG(icoGlyphName, icoGlyphVersion);
   },
 
   library() {
@@ -50,4 +26,4 @@ const icoGlyphs = {
   },
 };
 
-export default icoGlyphs;
+export default icoGlyph;
