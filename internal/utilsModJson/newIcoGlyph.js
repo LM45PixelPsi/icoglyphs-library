@@ -40,20 +40,19 @@ async function addNewIcoGlyph(glyphData) {
  * @param {string} [metadata.devNote] - optional
  */
 const newIcoGlyph = {
-  name: "24",
+  name: "under",
   // viewBox: "",
-  // aspectRatio: "",
   version: {
     number: "0.1.0", // Specify the first version
-    path: "M 10 10 L 65 35 L 90 35 M 10 65 L 35 65 L 35 90 M 90 10 L 10 90",
+    path: "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 75 A 1 1 0 0 0 50 75 A 1 1 0 0 0 50 75 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 15 50 L 85 50",
     // author: "L",
   },
-  // publicVersion: "0.1.0", // If not specified, will be null and considered non-public
+  publicVersion: "0.1.0", // If not specified, will be null and considered non-public
   metadata: {
-    // publicName: "",
-    // family: [],
+    publicName: "Under",
+    family: ["dots", "circles"],
     // category: [],
-    // tags: [],
+    tags: ["under", "down"],
     // description: "",
     // notes: {
     // userNote: "",

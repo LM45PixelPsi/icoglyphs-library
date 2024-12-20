@@ -9,7 +9,7 @@ const readAndUpdateJSON = require("./utils/fileUtils/readAndUpdateJSON"); // Imp
  * @param {String} type - The type of element to add: "tags", "family", or "category".
  * @returns {Promise<void>}
  */
-async function addArray(glyphName, array, type, action) {
+async function updateArray(glyphName, array, type, action) {
   if (!Array.isArray(array)) {
     console.error("Error: Elements must be in an array.");
     return;
@@ -68,17 +68,17 @@ async function addArray(glyphName, array, type, action) {
  */
 
 const optionsForPushingInArray = {
-  icoGlyphName: "9",
+  icoGlyphName: "frontier",
 
-  keysToPush: ["coucodu"],
+  keysToPush: ["frontier"],
 
   arrayTypesToPush: "tags",
 
-  action: "remove",
+  action: "add",
 };
 
 /** @function - Add these keywords */
-addArray(
+updateArray(
   optionsForPushingInArray.icoGlyphName,
   optionsForPushingInArray.keysToPush,
   optionsForPushingInArray.arrayTypesToPush,

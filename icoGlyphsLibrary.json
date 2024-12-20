@@ -1,94 +1,143 @@
 {
-    "9": {
-        "name": "9",
-        "id": "984b838e-2436-425b-99df-ce564ede16a4",
-        "viewBox": "0 0 100 100",
-        "aspectRatio": "1:1",
-        "version": {
-            "0.1.0": {
-                "versionDate": 1733416327945,
-                "path": "M 10 10 L 65 35 L 90 35 M 10 65 L 35 65 L 35 90 M 90 10 L 10 90",
-                "author": "L"
-            },
-            "0.2.0": {
-                "versionDate": 1733489427989,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.3.0": {
-                "versionDate": 1733489502781,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.4.0": {
-                "versionDate": 1733489882803,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.5.0": {
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L",
-                "versionDate": 1733579531461
-            },
-            "0.6.0": {
-                "versionDate": 1733582581323,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.7.0": {
-                "versionDate": 1733583386035,
-                "path": "M 10 10 L 20 20 L 30 30 L 90 90 L 90 60",
-                "author": "L"
-            },
-            "0.8.0": {
-                "versionDate": 1733583632112,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.9.0": {
-                "versionDate": 1733586396768,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.10.0": {
-                "versionDate": 1733586610035,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.11.0": {
-                "versionDate": 1733587859474,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.12.0": {
-                "versionDate": 1733591208798,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.13.0": {
-                "versionDate": 1733591991934,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.14.0": {
-                "versionDate": 1733592263205,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            },
-            "0.15.0": {
-                "versionDate": 1733846827972,
-                "path": "M 10 10 L 20 20 L 30 30",
-                "author": "L"
-            }
-        },
-        "latestVersion": "0.15.0",
-        "publicVersion": "0.2.0",
-        "metadata": {
-            "notes": {
-                "devNote": "ddddwwwwww"
-            },
-            "tags": ["coucou"],
-            "publicName": "Public name of 9"
-        }
+  "dot-one": {
+    "name": "dot-one",
+    "id": "f9209d61-dcbb-41a2-a657-7095b1b53c5d",
+    "viewBox": "0 0 100 100",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1734682247937,
+        "path": "M 50 51 A 1 1 0 0 0 50 48 A 1 1 0 0 0 50 48 M 50 48 A 1 1 0 0 0 50 48 A 1 1 0 0 0 50 48 M 50 48 A 1 1 0 0 0 50 51 A 1 1 0 0 0 50 48 M 50 48 L 50 48",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.1.0",
+    "publicVersion": "0.1.0",
+    "metadata": {
+      "publicName": "One Dot",
+      "family": ["dots", "circles"]
     }
+  },
+  "dot-two": {
+    "name": "dot-two",
+    "id": "45415737-7921-4385-b06c-f16f34b669b8",
+    "viewBox": "0 0 100 100",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1734682485380,
+        "path": "M 72 52 A 1 1 0 0 0 72 48 A 1 1 0 0 0 72 52 M 72 48 A 1 1 0 0 0 72 52 A 1 1 0 0 0 72 48 M 28 48 A 1 1 0 0 0 28 52 A 1 1 0 0 0 28 48 M 28 48 L 28 48",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.1.0",
+    "publicVersion": "0.1.0",
+    "metadata": {
+      "publicName": "Two Dots",
+      "family": ["dots", "circles"]
+    }
+  },
+  "dot-three": {
+    "name": "dot-three",
+    "id": "62c70941-5c7f-4fd2-8492-034793250fae",
+    "viewBox": "0 0 100 100",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1734683477560,
+        "path": "M 70 50 A 1 1 0 0 0 74 50 A 1 1 0 0 0 70 50 M 52 50 A 1 1 0 0 0 48 50 A 1 1 0 0 0 52 50 M 26 50 A 1 1 0 0 0 30 50 A 1 1 0 0 0 26 50 M 52 50 L 52 50",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.1.0",
+    "publicVersion": "0.1.0",
+    "metadata": {
+      "publicName": "Three Dots",
+      "family": ["dots", "circles"]
+    }
+  },
+  "frontier": {
+    "name": "frontier",
+    "id": "6a2e1731-30de-4261-a8d9-cd1af6a24b95",
+    "viewBox": "0 0 100 100",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1734683876058,
+        "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 50 A 1 1 0 0 0 50 50 A 1 1 0 0 0 50 50 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 50 85 L 50 15",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.1.0",
+    "publicVersion": "0.1.0",
+    "metadata": {
+      "publicName": "Frontier",
+      "family": ["dots", "circles"],
+      "tags": ["border", "frontier"]
+    }
+  },
+  "union": {
+    "name": "union",
+    "id": "f9cff335-2987-47e1-8053-00b45cdaa864",
+    "viewBox": "0 0 100 100",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1734687861021,
+        "path": "M 90 50 A 1 1 0 0 0 37 50 A 1 1 0 0 0 90 50 M 37 50 A 1 1 0 0 0 37 50 A 1 1 0 0 0 37 50 M 63 50 A 1 1 0 0 0 10 50 A 1 1 0 0 0 63 50 M 37 50 L 37 50",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.1.0",
+    "publicVersion": "0.1.0",
+    "metadata": {
+      "publicName": "Union",
+      "family": ["dots", "circles"],
+      "tags": ["union", "merge", "combine", "together", "coalition"]
+    }
+  },
+  "above": {
+    "name": "above",
+    "id": "7ffb9c2e-0208-4508-8f50-74cc3d9104aa",
+    "viewBox": "0 0 100 100",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1734688525110,
+        "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 25 A 1 1 0 0 0 50 25 A 1 1 0 0 0 50 25 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 15 50 L 85 50",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.1.0",
+    "publicVersion": "0.1.0",
+    "metadata": {
+      "publicName": "Above",
+      "family": ["dots", "circles"],
+      "tags": [
+        "above",
+        "top",
+        "up",
+        "over",
+        "overhead",
+        "superior",
+        "on top of",
+        "higher",
+        "higher than",
+        "greater than"
+      ]
+    }
+  },
+  "under": {
+    "name": "under",
+    "id": "9136d826-08f9-40f9-8e24-78591cc34979",
+    "viewBox": "0 0 100 100",
+    "version": {
+      "0.1.0": {
+        "versionDate": 1734688652291,
+        "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 75 A 1 1 0 0 0 50 75 A 1 1 0 0 0 50 75 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 15 50 L 85 50",
+        "author": "L"
+      }
+    },
+    "latestVersion": "0.1.0",
+    "publicVersion": "0.1.0",
+    "metadata": {
+      "publicName": "Under",
+      "family": ["dots", "circles"],
+      "tags": ["under", "down"]
+    }
+  }
 }
