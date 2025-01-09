@@ -1,143 +1,28 @@
 {
-  "dot-one": {
-    "name": "dot-one",
-    "id": "f9209d61-dcbb-41a2-a657-7095b1b53c5d",
-    "viewBox": "0 0 100 100",
-    "version": {
-      "0.1.0": {
-        "versionDate": 1734682247937,
-        "path": "M 50 51 A 1 1 0 0 0 50 48 A 1 1 0 0 0 50 48 M 50 48 A 1 1 0 0 0 50 48 A 1 1 0 0 0 50 48 M 50 48 A 1 1 0 0 0 50 51 A 1 1 0 0 0 50 48 M 50 48 L 50 48",
-        "author": "L"
-      }
-    },
-    "latestVersion": "0.1.0",
-    "publicVersion": "0.1.0",
-    "metadata": {
-      "publicName": "One Dot",
-      "family": ["dots", "circles"]
+    "svgData": {
+        "1": {
+            "name": "1",
+            "id": "d75c010f-d70a-4a52-84bb-425a528626b6",
+            "viewBox": "0 0 100 100",
+            "version": {
+                "0.1.0": {
+                    "versionDate": 1736418737802,
+                    "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 75 A 1 1 0 0 0 50 75 A 1 1 0 0 0 50 75 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 15 50 L 85 50",
+                    "author": "L"
+                },
+                "0.2.0": {
+                    "versionDate": 1736418787541,
+                    "path": "M 10 10 L 20 20 L 30 30",
+                    "author": "L"
+                }
+            },
+            "latestVersion": "0.2.0",
+            "publicVersion": "0.2.0",
+            "metadata": {
+                "publicName": "Public name of 9",
+                "family": ["dots", "circles"],
+                "tags": ["under", "down", "frontier"]
+            }
+        }
     }
-  },
-  "dot-two": {
-    "name": "dot-two",
-    "id": "45415737-7921-4385-b06c-f16f34b669b8",
-    "viewBox": "0 0 100 100",
-    "version": {
-      "0.1.0": {
-        "versionDate": 1734682485380,
-        "path": "M 72 52 A 1 1 0 0 0 72 48 A 1 1 0 0 0 72 52 M 72 48 A 1 1 0 0 0 72 52 A 1 1 0 0 0 72 48 M 28 48 A 1 1 0 0 0 28 52 A 1 1 0 0 0 28 48 M 28 48 L 28 48",
-        "author": "L"
-      }
-    },
-    "latestVersion": "0.1.0",
-    "publicVersion": "0.1.0",
-    "metadata": {
-      "publicName": "Two Dots",
-      "family": ["dots", "circles"]
-    }
-  },
-  "dot-three": {
-    "name": "dot-three",
-    "id": "62c70941-5c7f-4fd2-8492-034793250fae",
-    "viewBox": "0 0 100 100",
-    "version": {
-      "0.1.0": {
-        "versionDate": 1734683477560,
-        "path": "M 70 50 A 1 1 0 0 0 74 50 A 1 1 0 0 0 70 50 M 52 50 A 1 1 0 0 0 48 50 A 1 1 0 0 0 52 50 M 26 50 A 1 1 0 0 0 30 50 A 1 1 0 0 0 26 50 M 52 50 L 52 50",
-        "author": "L"
-      }
-    },
-    "latestVersion": "0.1.0",
-    "publicVersion": "0.1.0",
-    "metadata": {
-      "publicName": "Three Dots",
-      "family": ["dots", "circles"]
-    }
-  },
-  "frontier": {
-    "name": "frontier",
-    "id": "6a2e1731-30de-4261-a8d9-cd1af6a24b95",
-    "viewBox": "0 0 100 100",
-    "version": {
-      "0.1.0": {
-        "versionDate": 1734683876058,
-        "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 50 A 1 1 0 0 0 50 50 A 1 1 0 0 0 50 50 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 50 85 L 50 15",
-        "author": "L"
-      }
-    },
-    "latestVersion": "0.1.0",
-    "publicVersion": "0.1.0",
-    "metadata": {
-      "publicName": "Frontier",
-      "family": ["dots", "circles"],
-      "tags": ["border", "frontier"]
-    }
-  },
-  "union": {
-    "name": "union",
-    "id": "f9cff335-2987-47e1-8053-00b45cdaa864",
-    "viewBox": "0 0 100 100",
-    "version": {
-      "0.1.0": {
-        "versionDate": 1734687861021,
-        "path": "M 90 50 A 1 1 0 0 0 37 50 A 1 1 0 0 0 90 50 M 37 50 A 1 1 0 0 0 37 50 A 1 1 0 0 0 37 50 M 63 50 A 1 1 0 0 0 10 50 A 1 1 0 0 0 63 50 M 37 50 L 37 50",
-        "author": "L"
-      }
-    },
-    "latestVersion": "0.1.0",
-    "publicVersion": "0.1.0",
-    "metadata": {
-      "publicName": "Union",
-      "family": ["dots", "circles"],
-      "tags": ["union", "merge", "combine", "together", "coalition"]
-    }
-  },
-  "above": {
-    "name": "above",
-    "id": "7ffb9c2e-0208-4508-8f50-74cc3d9104aa",
-    "viewBox": "0 0 100 100",
-    "version": {
-      "0.1.0": {
-        "versionDate": 1734688525110,
-        "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 25 A 1 1 0 0 0 50 25 A 1 1 0 0 0 50 25 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 15 50 L 85 50",
-        "author": "L"
-      }
-    },
-    "latestVersion": "0.1.0",
-    "publicVersion": "0.1.0",
-    "metadata": {
-      "publicName": "Above",
-      "family": ["dots", "circles"],
-      "tags": [
-        "above",
-        "top",
-        "up",
-        "over",
-        "overhead",
-        "superior",
-        "on top of",
-        "higher",
-        "higher than",
-        "greater than"
-      ]
-    }
-  },
-  "under": {
-    "name": "under",
-    "id": "9136d826-08f9-40f9-8e24-78591cc34979",
-    "viewBox": "0 0 100 100",
-    "version": {
-      "0.1.0": {
-        "versionDate": 1734688652291,
-        "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 75 A 1 1 0 0 0 50 75 A 1 1 0 0 0 50 75 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 15 50 L 85 50",
-        "author": "L"
-      }
-    },
-    "latestVersion": "0.1.0",
-    "publicVersion": "0.1.0",
-    "metadata": {
-      "publicName": "Under",
-      "family": ["dots", "circles"],
-      "tags": ["under", "down"]
-    }
-  }
 }

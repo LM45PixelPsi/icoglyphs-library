@@ -21,7 +21,7 @@ async function updateArray(glyphName, array, type, action) {
   }
 
   await readAndUpdateJSON(async (jsonData) => {
-    const glyph = jsonData[glyphName];
+    const glyph = jsonData.svgData[glyphName];
 
     // Check if the glyph exists
     if (!glyph) {
@@ -68,7 +68,7 @@ async function updateArray(glyphName, array, type, action) {
  */
 
 const optionsForPushingInArray = {
-  icoGlyphName: "frontier",
+  icoGlyphName: "1",
 
   keysToPush: ["frontier"],
 

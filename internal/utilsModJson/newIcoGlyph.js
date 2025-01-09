@@ -14,7 +14,7 @@ async function addNewIcoGlyph(glyphData) {
       );
       return;
     }
-    jsonData[newGlyph.name] = newGlyph.toJSON();
+    jsonData.svgData[newGlyph.name] = newGlyph.toJSON();
     console.log(`New element "${newGlyph.name}" added.`);
   });
 }

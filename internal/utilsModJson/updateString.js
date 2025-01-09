@@ -29,7 +29,7 @@ async function updateString(glyphName, newNote, noteType, action) {
   }
 
   await readAndUpdateJSON(async (jsonData) => {
-    const glyph = jsonData[glyphName];
+    const glyph = jsonData.svgData[glyphName];
 
     // Check if the glyph exists
     if (!glyph) {
@@ -111,13 +111,13 @@ async function updateString(glyphName, newNote, noteType, action) {
  */
 
 const noteData = {
-  icoGlyphName: "9",
+  icoGlyphName: "1",
 
   textToAdd: "Public name of 9",
 
   noteType: "publicName",
 
-  action: "add",
+  action: "replace",
 };
 
 /** @function */

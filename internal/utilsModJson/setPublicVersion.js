@@ -13,7 +13,7 @@ const readAndUpdateJSON = require("./utils/fileUtils/readAndUpdateJSON"); // Imp
  */
 async function setPublicVersion(glyphName, version) {
   await readAndUpdateJSON(async (jsonData) => {
-    const glyph = jsonData[glyphName];
+    const glyph = jsonData.svgData[glyphName];
 
     // Check if the glyph exists
     if (!glyph) {
@@ -50,7 +50,7 @@ async function setPublicVersion(glyphName, version) {
  */
 
 const setPublicVersionData = {
-  icoGlyphName: "9",
+  icoGlyphName: "1",
 
   versionToSetPublic: "0.2.0",
 };
