@@ -13,9 +13,7 @@
   "license": "GPL-3.0",
   "description": "An open-source ideographic icons library, flexible and modular, SVG based.",
   "dependencies": {},
-  "devDependencies": {
-    "uuid": "^11.0.3"
-  },
+  "devDependencies": {},
   "keywords": [
     "icons",
     "glyphs",

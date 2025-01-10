@@ -1,12 +1,12 @@
 const readAndUpdateJSON = require("./utils/fileUtils/readAndUpdateJSON"); // Import of the centralized function
 
 /**
- * Update Tags, Family, or Category
+ * Update Tags
  * _________________________
  *
  * @param {String} glyphName - The name of the icoGlyph to update.
  * @param {Array} arrayToAdd - The array of elements to add.
- * @param {String} type - The type of element to add: "tags", "family", or "category".
+ * @param {String} type - The type of element to add: "tags".
  * @returns {Promise<void>}
  */
 async function updateArray(glyphName, array, type, action) {
@@ -14,7 +14,7 @@ async function updateArray(glyphName, array, type, action) {
     console.error("Error: Elements must be in an array.");
     return;
   }
-  const validTypes = ["tags", "family", "category"];
+  const validTypes = ["tags"];
   if (!validTypes.includes(type)) {
     console.error(`Error: The type "${type}" is invalid.`);
     return;
@@ -57,18 +57,18 @@ async function updateArray(glyphName, array, type, action) {
 }
 
 /**
- * @title - Modify tags, family, or category
+ * @title - Modify tags
  * _______________________________________
  *
  * @param {string} icoGlyphName
  * @param {array} keysToPush - Keywords to add
- * @param {"tags" | "family" |"category"} arrayTypesToPush - Specify where to push keywords
+ * @param {"tags"} arrayTypesToPush - Specify where to push keywords
  * @param {"add" | "remove"} action - Specify whether to add or remove keywords
  *
  */
 
 const optionsForPushingInArray = {
-  icoGlyphName: "1",
+  icoGlyphName: "3",
 
   keysToPush: ["frontier"],
 

@@ -1,27 +1,17 @@
 {
     "svgData": {
-        "1": {
-            "name": "1",
-            "id": "d75c010f-d70a-4a52-84bb-425a528626b6",
-            "viewBox": "0 0 100 100",
-            "version": {
-                "0.1.0": {
-                    "versionDate": 1736418737802,
-                    "path": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 M 50 75 A 1 1 0 0 0 50 75 A 1 1 0 0 0 50 75 M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 M 15 50 L 85 50",
-                    "author": "L"
-                },
-                "0.2.0": {
-                    "versionDate": 1736418787541,
-                    "path": "M 10 10 L 20 20 L 30 30",
-                    "author": "L"
-                }
+        "3": {
+            "path": {
+                "right": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 ",
+                "left": "M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 "
             },
-            "latestVersion": "0.2.0",
-            "publicVersion": "0.2.0",
             "metadata": {
-                "publicName": "Public name of 9",
-                "family": ["dots", "circles"],
-                "tags": ["under", "down", "frontier"]
+                "author": "L",
+                "tags": ["under", "down", "frontier"],
+                "description": "Public name of 9"
+            },
+            "spec": {
+                "defaultPath": "right"
             }
         }
     }

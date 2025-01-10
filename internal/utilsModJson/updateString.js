@@ -111,13 +111,13 @@ async function updateString(glyphName, newNote, noteType, action) {
  */
 
 const noteData = {
-  icoGlyphName: "1",
+  icoGlyphName: "3",
 
   textToAdd: "Public name of 9",
 
-  noteType: "publicName",
+  noteType: "description",
 
-  action: "replace",
+  action: "add",
 };
 
 /** @function */
