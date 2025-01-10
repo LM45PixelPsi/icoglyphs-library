@@ -8,6 +8,14 @@ const rl = readline.createInterface({
   terminal: false, // Disables the terminal's automatic echo
 });
 
+function askForConfirmation(question) {
+  return new Promise((resolve) => {
+    rl.question(question, (answer) => {
+      resolve(answer.toLowerCase() === "y" || answer.toLowerCase() === "yes");
+    });
+  });
+}
+
 // Function to properly close readline
 function closeReadLine() {
   if (!rl.closed) {
@@ -15,4 +23,4 @@ function closeReadLine() {
   }
 }
 
-module.exports = { rl, closeReadLine };
+module.exports = { rl, closeReadLine, askForConfirmation };
