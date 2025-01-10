@@ -7,7 +7,6 @@ const readAndUpdateJSON = require("./utils/fileUtils/readAndUpdateJSON"); // Imp
  * @param {String} glyphName - The name of the icoGlyph to update.
  * @param {Array} arrayToAdd - The array of elements to add.
  * @param {String} type - The type of element to add: "tags".
- * @returns {Promise<void>}
  */
 async function updateArray(glyphName, array, type, action) {
   if (!Array.isArray(array)) {

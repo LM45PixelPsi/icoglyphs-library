@@ -15,7 +15,6 @@ function handleError(err) {
 /**
  * Writes data to a JSON file, with arrays on a single line.
  * @param {object} jsonData - The data to write to the file.
- * @returns {Promise<void>}
  */
 async function writeJSON(jsonData) {
   try {
@@ -56,7 +55,6 @@ async function readJSON() {
 /**
  * Reads and updates the JSON file using the provided update function.
  * @param {Function} updateFunction - The function that updates the JSON data.
- * @returns {Promise<void>}
  */
 async function readAndUpdateJSON(updateFunction) {
   try {

@@ -1,20 +1,3 @@
 {
-    "svgData": {
-        "3": {
-            "path": {
-                "right": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 ",
-                "left": "M 72 50 1dddddddddddddddddddddddd 50 ",
-                "cc1": "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 ",
-                "up": ["dss", "dsdsd"]
-            },
-            "metadata": {
-                "author": "L",
-                "tags": ["under", "down", "frontier"],
-                "description": "Public name of 9"
-            },
-            "spec": {
-                "defaultPath": "right"
-            }
-        }
-    }
+  "svgData": {}
 }

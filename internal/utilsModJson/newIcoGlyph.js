@@ -3,7 +3,6 @@ const readAndUpdateJSON = require("./utils/fileUtils/readAndUpdateJSON"); // Imp
 
 /**
  * @param {Object} glyphData - Data of the element to add. Parameters can be partial (default values will be used).
- * @returns {Promise<void>}
  */
 async function addNewIcoGlyph(glyphData) {
   return readAndUpdateJSON(async (jsonData) => {
@@ -43,7 +42,7 @@ async function addNewIcoGlyph(glyphData) {
  */
 
 const newIcoGlyph = {
-  name: "3",
+  name: "2",
   path: {
     right: "M 72 50 A 1 1 0 0 0 72 50 A 1 1 0 0 0 72 50 ",
     left: "M 28 50 A 1 1 0 0 0 28 50 A 1 1 0 0 0 28 50 ",

@@ -8,7 +8,6 @@ const { askForConfirmation } = require("./utils/fileUtils/readLine");
  * @param {String} glyphName - The name of the icoGlyph to update.
  * @param {String} namePath - The specific path to be updated within the glyph.
  * @param {String} path - The SVG path to add or modify.
- * @returns {Promise<void>}
  */
 async function addPath(glyphName, namePath, path) {
   await readAndUpdateJSON(async (jsonData) => {
